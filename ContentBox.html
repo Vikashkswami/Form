@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Content Box</title>
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            background-color: blueviolet;
+            border: 2px solid red;
+            padding: 60px 60px;
+            margin: 100px 100px;
+            width: 150px;
+            box-sizing: content-box;
+            /* box-sizing: border-box; */
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>If you set an element width 100 px ,then the element content box will be 100 px wide it is the property of box box-sizing</h1>
+    <div class="container">
+        <h2>This is Heading</h2>
+        <p id="XYZ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum culpa architecto tempore optio quisquam itaque cumque illum quod, impedit voluptatum neque similique animi la</p>
+    </div>
+</body>
+</html>

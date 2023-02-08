@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h2>This is the form tutorial</h2> 
+    <fieldset>
+        <legend>NEW CAR </legend>
+    <form action="backend.java">
+        <div>
+            NAME: <input type="text" name="name">
+        </div>
+        <br>
+        <div>
+            <label for="LAST">CLASS</label>
+            <input type="number" id="LAST" name="NUM">
+        </div>
+        <div>
+            <label for="car">CAR</label>
+            <select name="mycar" id="car">
+                <option value="BMW">BMW</option>
+                <option value="AUDI">AUDI</option>
+                <option value="SHIFT">SHIFT</option>
+                <option value="BOLERO">BOLERO</option>
+                <option value="SELTOS" selected>SELTOS</option>
+                <option value="SUZUKI">SUZUKI</option>
+                
+            </select>
+        </div>
+        <div>
+            ROLE: <input type="text" name="role">  
+        </div>
+        <br>
+        <div>
+            EMAIL:<input type="email" name="email">
+        </div>
+        <br>
+        <div>
+            ADDRESS: <textarea name="mytext" cols="20" rows="5"></textarea>
+        </div>
+        
+        <div>
+            DATE: <input type="date" name="date">
+        </div>
+        <div>
+            Bonus: <input type="number" name="bonous">
+        </div>
+        <p>Choose your GENDER</p>
+        <div>
+            MALE: <input type="radio" name="gender" value="MALE">
+            FEMALE:<input type="radio" name="gender" value="FEMALE">
+            OTHER: <input type="radio" name="gender" value="OTHER">
+        </div>
+        <p>Choose your hobbies</p>
+        Crecket<input type="checkbox" name="crecket">
+        Footbal<input type="checkbox" name="football"><br>
+        Vallyball<input type="checkbox" name="Vallyball">
+        Basketball<input type="checkbox" name="Basketball">
+        <div>
+            <div>
+                RE-SET: <input type="reset">
+            </div>
+        SUBMIT:<input type="submit" value="submit now">
+</div>
+    </form>
+    <form>
+    </fieldset>
+</body>
+</html>
